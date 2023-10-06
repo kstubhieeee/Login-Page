@@ -1,0 +1,24 @@
+/* custom.css */
+
+.container.forms {
+    background-image: url('walp.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value (0.5) to control the transparency; 0 is fully transparent, and 1 is fully opaque */
+  }
+  
+  /* To make individual forms slightly transparent, you can target them by their respective classes */
+  
+  .form.login,
+  .form.signup {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the transparency as needed */
+  }
+  
+  /* Additional styling for form content if desired */
+  
+  .form-content {
+    /* You can add padding, margin, or other styles as needed */
+  }
+  
+  
